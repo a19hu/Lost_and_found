@@ -1,0 +1,53 @@
+.body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.prof{
+    border: 2px solid red;
+    border-bottom-right-radius: 80px 80px;
+    width: 50%;
+    height: 45rem;
+    margin: 2rem;
+    box-shadow: 5px 5px 10px red;
+    background-color: darkgray;
+      
+}
+.prof h1{
+    text-align: center;
+    text-decoration: underline;
+    margin: 3rem;
+}
+.logout a{
+ text-decoration: none;
+ text-align: center;
+}
+picture{
+    border-bottom: 2px solid black;
+    float: right;
+    width: 100%;
+    height: 12rem;
+    margin-top: 2rem;
+
+}
+picture img{
+    width: 99%;
+    height: 11rem;
+    vertical-align: middle;
+  border-radius: 50%;
+
+
+}
+.left{
+    margin-top: 2rem;
+    border: 2px solid rgb(114, 43, 43);
+    box-shadow: 5px 5px 10px red;
+
+    float: left;
+    width: 15rem;
+}
+.right{
+    float: right;
+    border: 2px solid black;
+    background-color: blueviolet;
+}
